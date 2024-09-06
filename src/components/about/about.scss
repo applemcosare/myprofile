@@ -1,0 +1,124 @@
+.about {
+  background: linear-gradient(135deg, #ffffff 30%, #f0f4f8 100%); /* Soft gradient background */
+  padding: 70px 0;
+  font-family: 'Montserrat', sans-serif; /* Modern and sophisticated font */
+
+  .content {
+    max-width: 1200px;
+    margin: 0 auto; /* Center-align content */
+    padding: 0 20px;
+
+    h3 {
+      font-weight: 800;
+      font-size: 30px;
+      color: #2c3e50; /* Strong, dark color for emphasis */
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      position: relative;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #ecf0f1; /* Subtle bottom border for separation */
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px; /* Positioned just below the border */
+        width: 60px;
+        height: 3px;
+        background: #e67e22; /* Bright accent color */
+      }
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #7f8c8d; /* Muted grey for readability */
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        padding: 15px 20px;
+        border-radius: 8px;
+        border-left: 5px solid #3498db; /* Vibrant blue accent */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Deeper shadow for more dimension */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          transform: translateY(-5px); /* Lift effect on hover */
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+        }
+
+        &:nth-child(even) {
+          background: #f9f9f9; /* Subtle alternate background color */
+        }
+      }
+
+      strong {
+        margin-right: 10px;
+        font-weight: 700;
+        color: #2c3e50; /* Consistent dark color */
+      }
+
+      i {
+        font-size: 18px;
+        margin-right: 12px;
+        color: #3498db; /* Matches the accent color */
+      }
+    }
+  }
+
+  .img-fluid {
+    border-radius: 15px; /* Slightly rounded corners for a modern look */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow for impact */
+    border: 3px solid #ecf0f1; /* Light border for contrast */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%; /* Ensure images scale within their container */
+
+    &:hover {
+      transform: scale(1.05); /* Slight zoom on hover */
+      box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); /* More dramatic shadow */
+    }
+  }
+
+  .section-title {
+    max-width: 1200px;
+    margin: 0 auto; /* Center-align section title */
+    padding: 0 20px;
+
+    h2 {
+      font-size: 34px;
+      color: #2c3e50; /* Strong title color */
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      letter-spacing: 1.5px;
+      position: relative;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #ecf0f1; /* Subtle bottom border for separation */
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px; /* Positioned just below the border */
+        width: 80px;
+        height: 3px;
+        background: #e67e22; /* Same bright accent color */
+      }
+    }
+
+    p {
+      font-size: 16px;
+      color: #7f8c8d; /* Softer grey for paragraph text */
+      margin-bottom: 40px;
+      line-height: 1.8;
+    }
+  }
+}

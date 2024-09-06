@@ -1,0 +1,92 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  padding: 0 15px;
+  background: #002147; /* Dark blue background */
+  overflow-y: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+  .profile {
+    .social-links {
+      a {
+        font-size: 18px;
+        display: inline-block;
+        background: #004080; /* Medium blue for social icons */
+        color: #ffffff;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+      }
+      a:hover {
+        background: #0066cc; /* Lighter blue on hover */
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+    h1 {
+      font-size: 24px;
+      margin: 0;
+      padding: 10px 0;
+      font-weight: 700;
+      text-align: center;
+      font-family: 'Poppins', sans-serif; /* Professional yet friendly font */
+      color: #ffffff;
+
+      a,
+      a:hover {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+    img {
+      margin: 15px auto;
+      display: block;
+      width: 120px;
+      height: 120px;
+      border: 5px solid #004080; /* Medium blue border */
+      border-radius: 50%;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Mobile Navigation
+--------------------------------------------------------------*/
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #0066cc; /* Lighter blue for toggle button */
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+
+  #header {
+    left: 0;
+  }
+}

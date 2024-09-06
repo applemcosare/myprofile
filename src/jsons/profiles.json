@@ -1,0 +1,41 @@
+{
+  "data_1": [
+    { "birthday": "21 September 2002" },
+    {
+      "website": "<a target='blank' href='https://soloist.ai/designer'>https://soloist.ai/designer</a>"
+    },
+    { "phone": "+63 9676919797" },
+    { "address": "Cabulijan, Tubigon, Bohol, Philippines" }
+  ],
+  "data_2": [
+    { "age": 22 },
+    { "degree": "Bachelor of Science in Information Technology" },
+    { "email": "<a href='mailto:someone@example.com'>applemcosare@yahoo.com</a>" },
+    { "freelance": "Available" }
+  ],
+  "data_3": [
+    "Cabulijan, Tubigon, Bohol, Philippines",
+    "+63 9676919797",
+    "<a href='mailto:someone@example.com'>applemcosare@yahoo.com</a>"
+  ],
+  "data_4": [
+    {
+      "title": "B.S. INFORMATION TECHNOLOGY",
+      "year": "2024 - 2025",
+      "school": "Mater Dei College",
+      "address": "Cabulijan, Tubigon, Bohol"
+    },
+    {
+      "title": "SECONDARY",
+      "year": "2019 - 2020",
+      "school": "Holy Cross Academy",
+      "address": "Tubigon, Bohol"
+    },
+    {
+      "title": "ELEMENTARY",
+      "year": "2008 - 2015",
+      "school": "Cabulijan Elementary School",
+      "address": "Cabulijan, Tubigon, Bohol"
+    }
+  ]
+}

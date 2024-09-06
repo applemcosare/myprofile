@@ -1,0 +1,11 @@
+{
+  "medias": [
+    {
+      "name": "instagram",
+      "link": "https://www.instagram.com/"
+    },
+    { "name": "facebook", "link": "https://www.facebook.com/mauwrob.kimpark" 
+  },
+  { "name": "github", "link": "https://github.com/" }
+  ]
+}
